@@ -169,7 +169,7 @@ was run in Jupyter Lab no the 3 files of which the 1st was was correct and rest 
 
 ## Haskell Practice programs
 
-Below are some Haskell practice programs i have done.
+Below are some Haskell practice programs i have done in the folder "[Haskell Programs](https://github.com/rchak007/haskell_assignment/tree/main/Haskell Programs)"
 
 5-functions.hs
 
