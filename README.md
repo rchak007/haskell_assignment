@@ -1,4 +1,4 @@
-# Mlabs Intern exercise
+# Haskell Assignment
 
 
 
