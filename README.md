@@ -173,6 +173,10 @@ Below are some Haskell practice programs i have done in the folder "[Haskell Pro
 
 5-functions.hs
 
+6-SocketsPlugs.hs
+
+7-outputAndOtherThings.hs
+
 8_if_1.hs
 
 9-8-right-binding.hs
