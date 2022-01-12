@@ -230,3 +230,101 @@ Functions are also themselves values, but they are a special kind of mapping-val
 ##### infix/Prefix
 
 A function is called an **infix** function when it appears between its arguments. Normal functions are called **prefix** because they are placed before their argument(s).
+
+##### Operator Sections
+
+another identical function, but using what’s called a section.
+
+
+
+##### commutative property
+
+
+
+#### Unit 7 - Output and Other things
+
+##### Type variables
+
+`(+) :: Num a => a -> a -> a`
+
+Type Variables can be named anything
+
+##### Typeclasses
+
+A typeclass is not a concrete type like Integer, Int or String. 
+
+###### Num
+
+Num typeclass means there actually isn’t only one definition for the functions for addition: 
+
+(+), subtraction: (-), multiplication: (*), negation: negate, etc but rather that each type — that is, 
+   each instance of Num — has its own definition for each of these functions
+
+###### show
+
+typeclass called Show (with a big S), and this provides a single function: 
+   -- show (with a small s), that can take any instance of Show, and makes a String version of it.
+-- takes a "showable" thing
+-- and returns a String
+-- show :: Show a => a -> String
+
+
+
+#### UNIT 8 - Make Decisions
+
+(==) operator
+
+##### Nesting if Expressions
+
+
+
+##### Case Expressions
+
+##### Guard Patterns
+
+
+
+##### Argument Pattern Matching
+
+
+
+
+
+#### Unit 9 - Lists
+
+
+
+##### The (:) Operator
+
+
+
+##### List Syntax
+
+##### List Type
+
+##### Lists of Other Types
+
+##### Lists with More Items
+
+
+
+##### Polymorphic Values and Types
+
+##### The (:) Operator Again, Binding & Associativity
+
+
+
+###### Right / Left Binding/Associativity
+
+###### List is Right Binding/Associativity
+
+###### Functions are left-associative
+
+
+
+###### type of the `(:)` operator:
+
+```haskell
+(:) :: a -> [a] -> [a]
+```
+
