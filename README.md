@@ -163,3 +163,66 @@ was run in Jupyter Lab no the 3 files of which the 1st was was correct and rest 
 
 
 
+
+
+
+
+## Haskell Practice programs
+
+Below are some Haskell practice programs i have done.
+
+5-functions.hs
+
+8_if_1.hs
+
+9-8-right-binding.hs
+
+9-9-shopping-list.hs
+
+9-16-final-shopping-list.hs
+
+10-4-final-movie-list.hs
+
+monads1.hs
+
+
+
+
+
+
+
+### Unit 5. Functions
+
+Haskell code: 5-functions.hs
+
+#### Lambda
+
+A lambda, you read, is an inline function definition. 
+
+#### Regular Function Definition (currying)
+
+
+
+#### Functions that Return Functions
+
+```haskell
+(\_ -> lambdaCoin) :: Bool -> (Bool -> Bool)
+```
+
+
+
+#### logical or operator
+
+
+
+#### Unit 6. Sockets and Plugs
+
+##### Reusability
+
+##### Functions are Values
+
+Functions are also themselves values, but they are a special kind of mapping-value from values to other values.
+
+##### infix/Prefix
+
+A function is called an **infix** function when it appears between its arguments. Normal functions are called **prefix** because they are placed before their argument(s).
