@@ -138,3 +138,33 @@ If we reached till here without an error then the Bytecode is pass.
 
 
 
+
+
+
+
+## 3 programs evaluated 
+
+
+
+![image-20220111213502066](student-files.png)
+
+
+
+
+
+
+
+## Results 
+
+Python program was use to evaluate.
+
+### Python program file: mlabs.ipynb 
+
+was run in Jupyter Lab no the 3 files of which the 1st was was correct and rest 2 bytecode programs were not correct.
+
+
+
+![image-20220111215804103](prg-outputs.png)
+
+
+
