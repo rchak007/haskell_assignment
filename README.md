@@ -2,16 +2,11 @@
 
 
 
-## To Do:
-
-- Need to add error control
-- Need to clean up some parts.
+## Psuedo Code
 
 
 
-
-
-## Step 1 - Read input 1 by 1 line 
+### Step 1 - Read input 1 by 1 line 
 
 Read the Bytecode from a file.
 
@@ -34,11 +29,11 @@ Initial file:
 
 
 
-## Step 2  - read each element and process it.
+### Step 2  - read each element and process it.
 
 
 
-### Split operation and value  
+#### Split operation and value  
 
 We read each element in the list Bytecode and split into 2 words where applicable. also if there is 2nd word convert that to numeric.
 
@@ -54,7 +49,7 @@ Ex. "LOAD_VAL" and "1" will be passed on to next steps to evaluate
 
 
 
-## Step 3 - Evaluate each expression
+### Step 3 - Evaluate each expression
 
 
 
@@ -62,7 +57,7 @@ After a current element of Bytecode list is split into words we evaluate the 1st
 
 This is passed from Step 2.
 
-### Step 3a - LOAD_VAL
+#### Step 3a - LOAD_VAL
 
 if 1st word == "LOAD_VAL", 
 
@@ -78,7 +73,7 @@ below is illustrated when its empty or already has a value 3 as an example.
 
 
 
-### Step 3b - Evaluate - WRITE_VAL
+#### Step 3b - Evaluate - WRITE_VAL
 
 
 
@@ -96,7 +91,7 @@ Also after a "WRITE_VAL" is successful complete clear the wa_operation list.
 
 ![image-20220110071407620](write_val.png)
 
-### Step 3c - Evaluate READ_VAL
+#### Step 3c - Evaluate READ_VAL
 
 
 
@@ -114,7 +109,7 @@ if NO element is found in wa_variables to read then it is an ERROR.
 
 
 
-### Step 3d - Evaluate ADD or MULTIPLY
+#### Step 3d - Evaluate ADD or MULTIPLY
 
 Read the 1st word (will not have a 2nd word):
 
@@ -130,7 +125,7 @@ Also once Add/Multiply is done remove the 2 elements read from wa_operation and 
 
 ![image-20220110075157463](add_mult.png)
 
-### Step 3e - Evaluate RETURN_VALUE
+#### Step 3e - Evaluate RETURN_VALUE
 
 If we reached till here without an error then the Bytecode is pass.
 
@@ -142,9 +137,9 @@ If we reached till here without an error then the Bytecode is pass.
 
 
 
-## 3 programs evaluated 
+## Student programs evaluated 
 
-
+3 student Bytecode program examples
 
 ![image-20220111213502066](student-files.png)
 
